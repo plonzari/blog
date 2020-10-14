@@ -2,6 +2,7 @@
 title: Barış Manço - Gülpembe
 date:  2020-10-13T04:26:45+00:00
 author: plonzari
+layout: post
 categories: Film Music
 ---
 
