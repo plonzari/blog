@@ -2,7 +2,7 @@
 title: Quantity has a quality of her own
 date: 2020-10-13T22:58:03+00:00
 author: plonzari
-layout: post-with_search-and-mathjax
+layout: post
 categories: Politics
 ---
 By talking to a few hundred senators 
