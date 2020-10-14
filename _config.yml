@@ -20,9 +20,8 @@
 
 title: Plonzari's musings
 email: plonzariblog@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Life recipes with a Romanian twist
-baseurl: "blog" # the subpath of your site, e.g. /blog
+description:  Life recipes with a romanian twist
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sortwie
 github_username:  plonzari
@@ -31,15 +30,6 @@ github_username:  plonzari
 theme: minima
 plugins:
   - jekyll-feed
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-        layout: "post"
-        author: "plozari"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
