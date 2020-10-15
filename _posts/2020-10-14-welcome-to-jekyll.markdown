@@ -6,16 +6,16 @@ author: plonzari
 categories: Living
 ---
 
-
+went down to the beach (to play one day)
 
 and maggie discovered a shell that sang  
-so sweetly she couldn't remember her troubles,
+so sweetly she couldn't remember her troubles,and 
 
-and milly befriended a stranded star  
+milly befriended a stranded star  
 whose rays five languid fingers were;
 
 and molly was chased by a horrible thing  
-which raced sideways while blowing bubbles:and
+which raced sideways while blowing bubbles:and 
 
 may came home with a smooth round stone  
 as small as a world and as large as alone.
