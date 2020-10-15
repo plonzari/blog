@@ -26,9 +26,11 @@ If the neighbourhood of $$N_i$$ is small the population contains many small comm
 certain size of neighborhoods one can have situations in which only there is a small number of communities and everyone 
 in the community has the same opinion. Moreover the transition can be sudden.
 
+
+
 <div style="text-align: center">
 <a href="https://twistedphysics.typepad.com/cocktail_party_physics/phase_transitions/">
-<img src="/assets/images/ising.png" width="500" /></a> 
+<img src="{{site.url}}/assets/images/ising.png" width="500" /></a> 
 
  <p>  <em> Ising agents with three increasing neighborhoods sizes (interaction strengths)</em></p></div>
 
