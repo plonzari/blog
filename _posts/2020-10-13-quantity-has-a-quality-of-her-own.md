@@ -9,9 +9,9 @@ By talking to a few hundred senators
 <a href="https://en.wikipedia.org/wiki/Carthago_delenda_est" data-type="URL" data-id="https://en.wikipedia.org/wiki/Carthago_delenda_est">Cicero was able to start a war</a>. Luther has done it by <a href="https://en.wikipedia.org/wiki/Ninety-five_Theses" data-type="URL" data-id="https://en.wikipedia.org/wiki/Ninety-five_Theses">nailing a piece of paper to a door</a> 
 and Hearst <a href="https://en.wikipedia.org/wiki/Propaganda_of_the_Spanish%E2%80%93American_War" data-type="URL" data-id="https://en.wikipedia.org/wiki/Propaganda_of_the_Spanish%E2%80%93American_War">with a journal</a> 
 with maybe 100000 readers. Radio and television have been considered big revolutions in opinion forming. 
-It is, therefore, reasonable to wonder if the changes caused by social media are something new, different from 
-the past. I would suggest that the more or less gradual capacity of information dissemination and opinion-forming 
-does not mean that the present is not qualitatively different.
+It is thus reasonable to wonder if the changes caused by social media are something new, different from the past. 
+On the one hand the past shows a more or less gradual increase in the speed and strength of  information dissemination and opinion-forming. 
+The present folows this quantitative rule but, on the other hand, it could also be qualitatively different.
 
 There are many models for opinion-forming (rumor-spreading) but the one I like most is based on the well-known 
 Ising model. See for example 
@@ -25,6 +25,12 @@ This formula models a tendency of communicating people to adopt similar opinions
 If the neighbourhood of $$N_i$$ is small the population contains many small communities of like opinion. But beyond a 
 certain size of neighborhoods one can have situations in which only there is a small number of communities and everyone 
 in the community has the same opinion. Moreover the transition can be sudden.
+
+<div style="text-align: center">
+<a href="https://twistedphysics.typepad.com/cocktail_party_physics/phase_transitions/">
+<img src="/assets/images/ising.png" width="500" /></a> 
+
+ <p>  <em> Ising agents with three increasing neighborhoods sizes (interaction strengths)</em></p></div>
 
 A conclusion of such an analysis would be that, assuming the community size has increased constantly in the past, 
 it is possible that the opinion forming dynamics have changes drastically at a certain point in time, probably quite 

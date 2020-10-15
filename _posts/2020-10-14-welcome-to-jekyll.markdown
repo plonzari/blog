@@ -23,4 +23,5 @@ as small as a world and as large as alone.
 For whatever we lose(like a you or a me)  
 it's always ourselves we find in the sea
 
-<p class="has-text-align-right"> E. E. Cummings </p>
+<div style="text-align: center">E. E. Cummings</div>
+
