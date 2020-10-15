@@ -32,6 +32,7 @@ in the community has the same opinion. Moreover the transition can be sudden.
 <a href="https://twistedphysics.typepad.com/cocktail_party_physics/phase_transitions/">
 <img src="{{ site.baseurl }}/assets/images/ising.png" width="500" /></a> 
 
+{{ site.baseurl }}
  <p>  <em> Ising agents with three increasing neighborhoods sizes (interaction strengths)</em></p></div>
 
 A conclusion of such an analysis would be that, assuming the community size has increased constantly in the past, 
