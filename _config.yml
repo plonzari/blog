@@ -22,7 +22,7 @@ title: Plonzari's musings
 email: plonzariblog@gmail.com
 description:  Life recipes with a romanian twist
 baseurl: "blog" # the subpath of your site, e.g. /blog ... is the repository for github pages
-url: #"https://plonzari.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://plonzari.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: sortwie
 github_username:  plonzari
 
