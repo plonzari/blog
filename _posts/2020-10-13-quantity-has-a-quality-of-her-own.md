@@ -19,7 +19,7 @@ Ising model. See for example
 by Ostili et al. The model is simple: the final state of a population choosing between two opinions 
 $$  O=1 $$ and $$O=-1$$ is decided by minimizing an energy function
 
-$$  E=-J \sum_i \sum_{j\in N_i} O_i O_j $$
+$$  E=-J \sum_i \sum_{j\in N_i} O_i O_j. $$
 
 This formula models a tendency of communicating people to adopt similar opinions.
 If the neighbourhood of $$N_i$$ is small the population contains many small communities of like opinion. But beyond a 
@@ -32,8 +32,7 @@ in the community has the same opinion. Moreover the transition can be sudden.
 <a href="https://twistedphysics.typepad.com/cocktail_party_physics/phase_transitions/">
 <img src="{{ site.baseurl }}/assets/images/ising.png" width="500" /></a> 
 
-{{ site.baseurl }}
- <p>  <em> Ising agents with three increasing neighborhoods sizes (interaction strengths)</em></p></div>
+ <p>  <em> Ising agents with three increasing neighborhood sizes (interaction strengths)</em></p></div>
 
 A conclusion of such an analysis would be that, assuming the community size has increased constantly in the past, 
 it is possible that the opinion forming dynamics have changes drastically at a certain point in time, probably quite 
