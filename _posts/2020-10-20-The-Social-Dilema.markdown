@@ -3,7 +3,7 @@ layout: post
 title: The Social Dilemma
 date:   2020-10-20T10:51:45+00:00
 author: plonzari
-categories: Living
+categories: Film
 ---
 
 Some thoughts concerning the documentary <em> The social dilemma</em> streaming on Netflix.
