@@ -18,7 +18,7 @@ form.gsc-search-box,table.gsc-search-box
 {
     padding:0px 0px 0px 0px !important;
     margin:0;
-    font-size:22px;
+    font-size:20px;
 }
 
 #gsc-iw-id1
@@ -120,5 +120,5 @@ table.gsc-input
 header.site-header
 {
   background-size: 100% 100%;
-  background-image:url("/assets/images/cetate.jpg");
+  background-image:url("{{ site.baseurl }}/assets/images/cetate.jpg");
 }
