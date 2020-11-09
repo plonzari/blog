@@ -27,7 +27,7 @@ people's convictions, they only show some success in targeting specific groups a
 that the knowledge, beliefs and ideologies acquired in the formative years must be one of the most important 
 determinants of later politics.
 
-It is easy to accept that the 7.5M Romanians aged 30 or less, born after 1990 have another outlook on the past. 
+It is easy to accept that the 7.5M Romanians aged 30 or less, born after 1990, have a particular outlook on the past. 
 And, if possible to define, the typical outlook of the voters, with a median age of about fifty, must be different from 
 that of the overall population (median age about forty). This is especially true, given that the average age of 
 people actually going to the polls is usually even higher. I think that the positive changes seen in last two elections 
@@ -38,7 +38,7 @@ The age distribution in the Romanian population is strongly affected by the tota
 in the period 1966-1989. As a consequence most people in Romania are about 40 years old, still consistent with 
 my analysis. Also some people born at the end of the 60's have had some university education after the fall of 
 communism. But only about a quarter of Romanians have higher level of education and maybe quarter of the rest 
-have not finished high-school so numbers cancel out.
+have not finished high-school, so numbers cancel out.
 
 While a more detailed analysis is necessary to derive a more exact age distribution and correlation with politics, 
 let us hope that, with more than half of voters educated in democracy, 

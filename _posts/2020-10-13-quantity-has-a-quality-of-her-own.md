@@ -16,17 +16,16 @@ The present folows this quantitative rule but, on the other hand, it could also 
 There are many models for opinion-forming (rumor-spreading) but the one I like most is based on the well-known 
 Ising model. See for example 
 <a href="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-767.pdf" data-type="URL" data-id="https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-767.pdf">Ising model of rumour spreading in interacting communities</a>, 
-by Ostili et al. The model is simple: the final state of a population choosing between two opinions 
-$$  O=1 $$ and $$O=-1$$ is decided by minimizing an energy function
+by Ostili et al. The model is simple: the  distribution of beliefs of a population choosing between two opinions 
+$$  O=1 $$ and $$O=-1$$ is modeled by minimization dynamics of an energy function
 
 $$  E=-J \sum_i \sum_{j\in N_i} O_i O_j. $$
 
-This formula models a tendency of communicating people to adopt similar opinions.
-If the neighbourhood of $$N_i$$ is small the population contains many small communities of like opinion. But beyond a 
-certain size of neighborhoods one can have situations in which only there is a small number of communities and everyone 
-in the community has the same opinion. Moreover the transition can be sudden.
-
-
+This formula models a tendency of  people to adopt similar opinions with those they are in contact with 
+(their neighborhood).
+If the neighbourhood  $$N_i$$ is small the population contains many small communities of like opinion. But beyond a 
+certain size of neighborhoods one can have situations in which there is only a small number of communities and everyone 
+in the same community has the same opinion. Moreover the transition can be sudden.
 
 <div style="text-align: center">
 <a href="https://twistedphysics.typepad.com/cocktail_party_physics/phase_transitions/">
@@ -34,11 +33,11 @@ in the community has the same opinion. Moreover the transition can be sudden.
 
  <p>  <em> Ising agents with three increasing neighborhood sizes (interaction strengths)</em></p></div>
 
-A conclusion of such an analysis would be that, assuming the community size has increased constantly in the past, 
+A conclusion of such an analysis would be that, assuming the neighborhood size has increased constantly in the past, 
 it is possible that the opinion forming dynamics have changes drastically at a certain point in time, probably quite 
-recently. At this point many measurable variables could be drastically altered. For example the average number of
-people one knows (talks to) having a different opinion would drop to zero. We do not really know if this is the case
-and it is difficult to go back in time and measure.
+recently. At this point many measurable variables could have drastically changed. For example the average number of
+people one knows (talks to) having a different opinion would drop to almost zero. We do not really know if this is 
+the case and it is difficult to go back in time and measure.
 
 A similar physically inspired model of social dynamics is beautifully presented as a  
 <a href="https://ncase.me/polygons/"> Parable of the Polygons </a>.
