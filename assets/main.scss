@@ -11,7 +11,7 @@
 
 form.gsc-search-box,table.gsc-search-box
 {
-    margin-bottom:10px !important;
+    margin-bottom:5px !important;
 }
 
 .gsc-search-box .gsc-input
@@ -19,6 +19,7 @@ form.gsc-search-box,table.gsc-search-box
     padding:0px 0px 0px 0px !important;
     margin:0;
     font-size:20px;
+    color:blue;
 }
 
 #gsc-iw-id1
@@ -98,6 +99,7 @@ td.gsc-input
 {
   padding:0px;
   border:0px;
+
 }
 
 button.gsc-search-button
@@ -125,5 +127,8 @@ header.site-header
 
 body {background-color:ivory ;}
 
-a.site-title
+.site-title
+{font-weight: bold;}
+
+.page-link
 {font-weight: bold;}
