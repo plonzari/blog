@@ -8,23 +8,22 @@ categories: Living
 
 
 
-In the past few months I have been seen more and more examples of virulent racist, sexist and anti-LGBTQ reactions. 
-My unpleasant surprise was to find such attitudes in a part of the Romanian society  which I thought shared my ideas on 
-politics and society. I found indeed surprising to find out educated, well-paid, westward-looking young people 
-with profound misunderstandings concerning the problems of minorities (of all kinds). It is really sad to find on channels
-I used to trust climato-sceptic, anti-feminist and anti-"cancel-culture" articles, to hear that people I thought to be the
-future of Romania expressing homophobic or anti-vaccination ideas. 
+In the past few months I have been seen more and more examples of virulent racist, sexist and anti-LGBTQ reactions in 
+the Romanian press. My unpleasant surprise was to find such attitudes in a part of the Romanian society  which I 
+thought shared my ideas on politics and society. One can find many educated, well-paid, westward-looking young 
+people showing a profound misunderstanding concerning the problems of minorities (of all kinds). 
+It is really sad to read on channels I used to trust climato-sceptic, anti-feminist and anti-"cancel-culture" articles,
+ or to hear that people I thought to be the future of Romania expressing homophobic or anti-vaccination ideas. 
 
-I found particularly wrenching the  <a href="https://pressone.ro/pe-aripile-vantului-zece-oameni-de-cultura-romani-si-o-controversa"> 
+I found particularly wrenching the  
+<a href="https://pressone.ro/pe-aripile-vantului-zece-oameni-de-cultura-romani-si-o-controversa"> 
 fake controversy around <em>Gone with the wind</em>. </a>
 Probably it is simply a problem of mistaken  extrapolation: because we share some ideas about the future of the country 
 does not mean that they think like me. 
 But I am still scared because it seems to me that a believer in one conspiracy is a believer in all conspiracies.
 
-
-
-Anyway, I am convinced that one problem is most people malign <b> the others </b> without having any understanding of 
-their life.  Articles like
+Anyway, I am convinced that one problem is that most people malign <b> the others </b> 
+without having any understanding of their life.  Articles like
 <a href="https://www.nature.com/articles/d41586-020-02949-3">
 'How LGBT+ scientists would like to be included and welcomed in STEM workplaces'</a>, remind me that it is really 
 difficult to imagine where they come from. 
