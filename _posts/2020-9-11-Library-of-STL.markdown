@@ -9,6 +9,13 @@ categories: Living
 
 Some time ago I got access to a 3D printer. After learning to use the Blender software I put toghether several projects.
 
+A self avoiding random walk
+<script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/RWdiag.stl"></script
+
+A pin for the MARS team
+<script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/marsmash.stl"></script
+
+
 Map of Fagaras mountain chain between Negoiu and Moldovean peaks:
 <script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/map.stl"></script
 

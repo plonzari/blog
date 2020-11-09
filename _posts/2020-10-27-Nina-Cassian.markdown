@@ -11,10 +11,10 @@ categories: Living
 The Distance Between Me and Me </a> is a documentary featuring a  poet somewhat emblematic for the communist Romania.
 As a collection of scenes with communists and their own words the film is quite entertaining, but not if you look 
 for historical objectivity.
-
 <div style="text-align: center">
-<a id='vneWuyVGTm90vL-0ZpLRZw' class='gie-single' href='http://www.gettyimages.com/detail/1158128661' target='_blank' style='color:#a7a7a7;text-decoration:none;font-weight:normal !important;border:none;display:inline-block;'>Embed from Getty Images</a><script>window.gie=window.gie||function(c){(gie.q=gie.q||[]).push(c)};gie(function(){gie.widgets.load({id:'vneWuyVGTm90vL-0ZpLRZw',sig:'65_hvyfnCli8YFSx1J14fN03CivSjvbrP-bwp9i8idA=',w:'436px',h:'446px',items:'1158128661',caption: false ,tld:'com',is360: false })});</script><script src='//embed-cdn.gettyimages.com/widgets.js' charset='utf-8' async></script>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QzYzYdWNAYg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 
 Although Nina Cassian is a very well known name in Romania, one of the two women poets everyone knows about 
 (the other one being Ana Blandiana), her name is mostly associated with children's books, and very few actually 
