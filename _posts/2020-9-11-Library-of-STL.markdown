@@ -15,26 +15,33 @@ Tiles for a (imperfect) Penrose tiling
 <img src="{{ site.baseurl }}/assets/3D/TilingFinal.png" width="500" /></a> 
 
 The Kiss
+
 <script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/TheKissLP.stl"></script>
 
 
 A 3D self avoiding random walk
+
 <script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/RWdiag.stl"></script>
 
 A pin for the MARS team
+
 <script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/marsmash.stl"></script>
 
 
 Map of Fagaras mountain chain between Negoiu and Moldovean peaks
+
 <script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/map.stl"></script>
 
 
 Decorations to be glued on bathroom surface
 
 Half a thinker
+
 <script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/Rodin.stl"></script>
 
 and others
+
 <script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/Piss.stl"></script>
+
 <script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/ShitHappens.stl"></script>
 
