@@ -8,7 +8,7 @@ categories: Living
 
 
 
-<script src="https://embed.github.com/view/3d/plonzari/blog/assets/stl/clip.stl"></script>
+<script src="https://embed.github.com/view/3d/plonzari/blog/assets/3D/Rodin.stl"></script>
 
 
 
