@@ -8,11 +8,11 @@ categories: Living
 
 
 Some time ago I got access to a 3D printer. After learning to use the Blender software I put 
-together several decorative 3Dmodels. Some are even printed.
+together several decorative 3D models. Some are even printed.
 
 Tiles for a (imperfect) Penrose tiling
 
-<img src="{{ site.baseurl }}/assets/3D/TilingFinal.png" width="500" /></a> 
+<img src="{{ site.baseurl }}/assets/3D/TilingFinal.png" width="620" />
 
 The Kiss
 
