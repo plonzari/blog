@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Posts
 ---
 
 <div class="home">
@@ -35,7 +36,7 @@ layout: default
     {% assign sortedCategories = post.categories | sort %}
     {% for category in sortedCategories %}
         <span class="tag">
-            <a href="/category/{{ category }}">#{{ category }}</a>
+            <a href="{{ site.baseurl }}/category/{{ category }}">#{{ category }}</a>
         </span>
     {% endfor %}
 </div>
