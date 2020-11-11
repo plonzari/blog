@@ -1,15 +1,32 @@
 ---
 layout: default
-title: Posts
 ---
 
 <div class="home">
+
+
+
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+    <h1 class="page-heading">{{  page.title | escape  }}</h1>
   {%- endif -%}
 
   {{ content }}
-  aaaa
+
+
+
+
+   <h3 class="category-topic">Topics:</h3>
+    {% assign sortedCategories = site.categories | sort %}
+    {% for category in sortedCategories %}
+     {% assign cat4url = category[0] | remove:' ' | downcase %}
+     <a class="sidebar-nav-item" href="{{site.baseurl}}/category/{{cat4url}}">
+        #{{category[0]}}
+     </a>
+    {% endfor %}
+    <br>
+    <br>
+
+
 
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
@@ -20,7 +37,9 @@ title: Posts
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
+
+
+    <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -40,7 +59,6 @@ title: Posts
         </span>
     {% endfor %}
 </div>
-
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
