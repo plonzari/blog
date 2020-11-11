@@ -3,7 +3,7 @@ layout: post
 title: The Distance Between Me and Me - Nina Cassian
 date:   2020-10-27T11:51:45+00:00
 author: plonzari
-categories: Living
+categories: film
 ---
 
 

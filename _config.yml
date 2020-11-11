@@ -33,6 +33,10 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  category:
+    output: true
+
 defaults:
   -
     scope:
@@ -40,6 +44,11 @@ defaults:
       type: "posts"
     values:
       layout: "post-with-mathjax"
+    scope:
+      path: ""
+      type: "category"
+    values:
+        layout: "category"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -3,7 +3,7 @@ layout: post
 title: Copy in Python
 date:   2020-10-21T10:51:45+00:00
 author: plonzari
-categories: Python
+categories: python
 ---
 
 While there are probably thousands of book and web pages dealing with the issue after yet 

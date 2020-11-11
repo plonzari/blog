@@ -1,9 +1,9 @@
 ---
+layout: post
 title: Quantity has a quality of her own
 date: 2020-10-13T22:58:03+00:00
 author: plonzari
-layout: post-with-mathjax
-categories: Politics
+categories: politics
 ---
 By talking to a few hundred senators 
 <a href="https://en.wikipedia.org/wiki/Carthago_delenda_est" data-type="URL" data-id="https://en.wikipedia.org/wiki/Carthago_delenda_est">Cicero was able to start a war</a>. Luther has done it by <a href="https://en.wikipedia.org/wiki/Ninety-five_Theses" data-type="URL" data-id="https://en.wikipedia.org/wiki/Ninety-five_Theses">nailing a piece of paper to a door</a> 

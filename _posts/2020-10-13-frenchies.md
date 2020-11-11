@@ -3,7 +3,7 @@ layout: post
 title: Frenchies
 date:  2020-10-13T04:27:45+00:00
 author: plonzari
-categories: Music
+categories: music
 ---
 
 Browsing YouTube.

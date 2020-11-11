@@ -3,7 +3,9 @@ layout: post
 title: A library of 3D models 
 date:   2020-11-9T11:51:45+00:00
 author: plonzari
-categories: Living
+categories: 
+        - "living"
+        - "crafts"
 ---
 
 

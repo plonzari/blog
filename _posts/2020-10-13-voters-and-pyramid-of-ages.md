@@ -3,7 +3,7 @@ title: Voters and pyramid of ages
 date: 2020-10-13T14:20:54+00:00
 author: plonzari
 layout: post
-categories: Politics and society
+categories: politics 
 ---
 <p class="has-text-align-left">
   Some <em>Fermi </em>estimates of population structure suggest that 2020 is a turning point in Romanian politics.

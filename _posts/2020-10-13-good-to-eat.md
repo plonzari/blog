@@ -2,7 +2,7 @@
 title: Good to eat
 date: 2020-10-13T12:58:16+00:00
 layout: post
-categories: Living
+categories: living
 ---
 Breakfast: egg-avocado toast
 
