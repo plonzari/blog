@@ -1,9 +1,11 @@
 ---
 layout: post
-title: The Social Dilemma
+title: The Reagans
 date:   2020-11-18T10:51:45+00:00
 author: plonzari
-categories: film
+categories: 
+            - film
+            - politics
 ---
 
 Some thoughts concerning the documentary <em> The Reagans</em> from Showtime.
