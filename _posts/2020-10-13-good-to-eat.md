@@ -16,7 +16,7 @@ Breakfast: egg-avocado toast
 
 Stack the ingredients in this order.
 
-Lunch: smoked salmon pasta
+Lunch: smoked salmon pasta (2-3 portions)
 
    * 200g gnocchi
    * 200g smoked salmon
@@ -29,12 +29,12 @@ oil with some pepper. Do not brown the garlic. Mix the pasta (with a bit of the 
 the sour cream and half the cheese in the frying pan. Turn off the heat and let it rest (covered) for 10mn.
 Serve with the rest of the grated cheese.
 
-Dinner: 
+Dinner: pork with peppers and cheese (3 portions)
 
   * 500g pork shoulder and belly (half and half)
   * olive oil
-  * four white bell peppers chopped.
-  * 300g feta cheese
+  * four white bell peppers cut in 2" x .5" strips
+  * 300g feta cheese (diced)
 
-Fry the meat in olive oil. When browned add chopped peppers. When peppers start to brown melt cheese on top. 
+Fry the meat in olive oil. When browned add peppers. When peppers start to brown melt cheese on top. 
 Inspired by "pork with cheese" from a Greek restaurant.
