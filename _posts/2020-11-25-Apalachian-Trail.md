@@ -19,7 +19,7 @@ Trump has won with an average of 63%.
 
 {% include AT_votes.html %}
 
-Nevertheless, with 2260624 votes Trump gets only 54% of the popular vote along the trail.
+Nevertheless, with 2,260,624 votes Trump gets only 54% of the popular vote along the trail.
 This difference between the average of percentages and popular vote is quite common for US elections.
 
 Obviously, one would still expect the rural areas on the trail to remain very red, but the urban areas are shifting. 
@@ -30,5 +30,3 @@ Plotting the differences between the percentages of Biden and Clinton one can se
 Even at this scale some of the main features of the 2020 elections are clearly apparent: GA, PA and NC
 getting blue and Upstate NY going red. 
   
-
-

@@ -6,6 +6,7 @@ layout: post
 categories: 
         - politics 
         - numbers
+        - education
 ---
 <p class="has-text-align-left">
   Some <em>Fermi </em>estimates of population structure suggest that 2020 is a turning point in Romanian politics.
