@@ -11,7 +11,7 @@
 
 form.gsc-search-box,table.gsc-search-box
 {
-    margin-bottom:5px !important;
+    margin-bottom:18px !important;
 }
 
 .gsc-search-box .gsc-input
@@ -71,6 +71,7 @@ button.gsc-search-button
 .gsc-control-cse,#gsc-iw-id1
 {
     background-color:transparent !important;
+    margin-bottom: 0px;
 }
 
 #search-box
@@ -107,11 +108,12 @@ button.gsc-search-button
     padding:10px !important;
     background-color: #000 !important;
     border-radius: 0px !important;
+    margin-bottom: 0px;
 }
 
 table.gsc-search-box
 {
-  border:0px;
+  border:10px;
 }
 
 table.gsc-input
