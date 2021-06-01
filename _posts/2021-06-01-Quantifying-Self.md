@@ -50,5 +50,6 @@ The list of the 20 domains on which  most of my time was spent shows that  I rea
   search  compulsively for books I will never read and   and movies I will never have time to watch. 
   The first three sites nicely summarize my activity in front of the computer: reading news, 
   working on programming projects and watching movies.
-
+    
+  {% include Treemap.html %}
   {% include table_visited_sites.html %}
