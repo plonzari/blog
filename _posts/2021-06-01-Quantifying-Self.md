@@ -7,7 +7,7 @@ categories: living
 ---
 
 Some time ago I modified a Chrome extension to track the time spent on individual web pages.
-I the past year data for 80K visits to different pages on 3982 domains has been registered, 
+During the past year data for 80K visits to different pages on 3982 domains has been registered, 
 together with the time actively spent on them.
 
 Most pages are visited for a very short time, while there is a significant number of pages on which 
