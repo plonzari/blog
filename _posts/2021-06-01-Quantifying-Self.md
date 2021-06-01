@@ -39,7 +39,7 @@ Something very similar happens if the times are accumulated for individual domai
 
 The time versus rank plot shows that there are a few sites on which a long time is spent. In fact I seem 
  to spend 95% of the time on less than 5% of the sites. This is similar with a less extreme 80%-20% 
- distribution which seems to hold in many domains and is called 
+ distribution called 
  <a href="https://en.wikipedia.org/wiki/Pareto_principle"> Pareto principle</a>. There are many 
  contexts in which this rule has been identified to hold. Indeed, most of the internet traffic 
  comes from a few pages, most of the Covid infections are related to few patients and 80% of 
