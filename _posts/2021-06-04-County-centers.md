@@ -6,7 +6,7 @@ author: plonzari
 categories: living
 ---
 
-For those lacking visit destinations I have a map with geographical centers (centroids) of each Romanian county.
+For those lacking travel destinations I have a map with geographical centers (centroids) of each Romanian county.
 For the moment only latitude and longitude to be checked in 
 <a href="https://www.google.com/maps/place/44%C2%B026'18.4%22N+26%C2%B005'30.1%22E/@44.43844,26.0895003,899m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d44.43844!4d26.091689 
 "> Google Maps. </a>
