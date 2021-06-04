@@ -22,7 +22,7 @@ south-east of the town of Fagaras.
 
 The error indicated above is likely to be a projection error. Indeed, the above calculations 
 are made using planar coordinates, and overestimate the size of the northern parts of any surface. 
-The real "spherical" centroid is thus always due south from our estimation. For example, the largest 
+The real "spherical" centroid is thus always due south from our estimation. Also the largest 
 planar county above is Suceava, while the county with the largest surface "on the ground" is Timis. 
 The difference is entirely explained by their latitude.
 
