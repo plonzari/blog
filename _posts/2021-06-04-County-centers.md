@@ -24,5 +24,3 @@ order if 300m.
 
 <a href="https://nbviewer.jupyter.org/github/plonzari/blog/blob/gh-pages/_includes/ro-centroids-folium.ipynb 
 "> A much less colorful version. </a>
-
-https://nbviewer.jupyter.org/github/plonzari/blog/blob/gh-pages/_includes/ro-centroids-folium.ipynb
