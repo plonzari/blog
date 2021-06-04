@@ -21,6 +21,8 @@ Also <a href="https://www.google.com/maps/place/45%C2%B050'16.3%22N+24%C2%B059'1
 south-east of the town of Fagaras. This difference implies that the my errors  in computing the centroids are of the 
 order if 300m.
 
-A much less colorful version:
 
-{% include rocenterm.html %}
+<a href="https://nbviewer.jupyter.org/github/plonzari/blog/blob/gh-pages/_includes/ro-centroids-folium.ipynb 
+"> A much less colorful version. </a>
+
+https://nbviewer.jupyter.org/github/plonzari/blog/blob/gh-pages/_includes/ro-centroids-folium.ipynb
