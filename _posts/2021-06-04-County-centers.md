@@ -21,10 +21,10 @@ Also <a href="https://www.google.com/maps/place/45%C2%B050'16.3%22N+24%C2%B059'1
 south-east of the town of Fagaras. 
 
 The error indicated above is likely to be a projection error. Indeed, the above calculations 
-are made using planar coordinates, thus overestimating the size of the northern parts of any surface. 
+are made using planar coordinates, and overestimate the size of the northern parts of any surface. 
 The real "spherical" centroid is thus always due south from our estimation. For example, the largest 
-planar county above is Suceava, while the  county with the largest surface  is Timis. The difference is 
-entirely explained by their latitude.
+planar county above is Suceava, while the county with the largest surface "on the ground" is Timis. 
+The difference is entirely explained by their latitude.
 
 <a href="https://nbviewer.jupyter.org/github/plonzari/blog/blob/gh-pages/_includes/ro-centroids-folium.ipynb 
 "> A much less colorful version with code. </a>
