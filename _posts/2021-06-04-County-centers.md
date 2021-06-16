@@ -33,7 +33,7 @@ As an extra, I was exploring the application of the graph coloring ideas to the 
 The map cannot be colored with three colors without having neighbors with the same color. 
 As it is
 <a href="https://en.wikipedia.org/wiki/Four_color_theorem"> well known </a> there is at least one coloring 
-of the map with four colors. For the county's map there are millions of them, and below is an example
-with minimal usage of the forth color.
+of the map with four colors. For the county's map there seem to be  millions of colorings, 
+and below is an example with minimal usage of the forth color.
 
 {% include ro-county-4.5color.html %}
