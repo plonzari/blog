@@ -29,4 +29,11 @@ The difference is entirely explained by their latitude.
 <a href="https://nbviewer.jupyter.org/github/plonzari/blog/blob/gh-pages/_includes/ro-centroids-folium.ipynb 
 "> A much less colorful version with code. </a>
 
+As an extra, I was exploring the application of the graph coloring ideas to the county map of Romania.
+The map cannot be colored with three colors without having neighbors with the same color. 
+As it is
+<a href="https://en.wikipedia.org/wiki/Four_color_theorem"> well known </a> there is at least one coloring 
+of the map with four colors. For the county's map there are millions of them, and below is an example
+with minimal usage of the forth color.
 
+{% include ro-county-4.5color.html %}
