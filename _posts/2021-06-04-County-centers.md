@@ -3,7 +3,9 @@ layout: post
 title: Geographical center of Romanian counties
 date:   2021-06-4T2:51:45+00:00
 author: plonzari
-categories: living
+categories: 
+            - living
+            - python
 ---
 
 For those lacking travel destinations I have a map with geographical centers (centroids) of each Romanian county.
