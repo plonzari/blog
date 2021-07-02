@@ -7,7 +7,7 @@ categories: crafts
 ---
 In a previouis [post]({{ site.baseurl }}{% link _posts/2020-11-23-on-drones.md %})
 I discussed the physics of hovering drones and helicopters. My interest in the
-physics of propellers was reignited by the " faster than the wind - downwind" controversy:
+physics of propellers was reignited by the "faster than the wind - downwind" controversy:
 
 <div style="text-align: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yCsgoLc_fzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
