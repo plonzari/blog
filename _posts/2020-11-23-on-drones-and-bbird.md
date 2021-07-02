@@ -5,46 +5,69 @@ date: 2021-07-01T22:58:03+00:00
 author: plonzari
 categories: crafts
 ---
-[Link to a post]({{ site.baseurl }}{% link _posts/2020-11-23-on-drones.md %})
-After playing a bit with a DJI Mavic Air drone I started to wonder what are the differences between the physics of 
-drones and helicopters. One particular question is which one would be better to hover with given weight. Also
-how long can a drone and/or helicopter fly (hover)?
-
-These questions have a lot to do with the type of engine and details of propeller aerodynamics. As I did not find
-simple and relevant references I will try a simple physical analysis.
-
-Let us consider a wing modelling a blade of the propeller, moving in the horizontal plane. Quantities of interest are 
-the vertical force on the propeller $$F$$, the speed at which the wing section moves $$v$$, the angle of attack 
-between the wing and the horizontal $$\alpha$$ and the power $$P$$ used to move the propeller against the drag.
-For a section of wing of size $$dr$$ along the wing/blade one has:
-
-$$ F = F_p * \cos(\alpha), \quad P= v * F_p *\sin(\alpha).$$
-
-$$F_p$$ is the force perpendicular to the wing $$ F_p=K v \sin(\alpha) $$, with $$K$$ some constant. 
-These equations must still be some approximations, the trigonometric functions probably only qualitative 
-descriptions. Anyway, for a propeller blade rotating with angular speed $$\omega$$ we have
-
-$$ dF=K_1 \omega r dr \cos(\alpha) \sin(\alpha)$$ and  $$dP=K_2 \omega^2 r^2 dr  \sin^2(\alpha)$$
-
-At least we have something reasonable. When the blade is horizontal both the lift force and the power are zero. 
-If the blade is vertical the power is maximal, while the lift force is again zero. Integrating over the length of 
-a blade 
-
-$$ F=A \omega R^2 \cos(\alpha) \sin(\alpha)$$ and  $$P=B \omega^2 R^3  \sin^2(\alpha)$$
-
-
-
-Again, $$K_i, A,B $$ are some constants that could take into account some of the complexities of the blade 
-geometry and aerodynamics.
-
-At fixed $$\alpha$$ let us think how we can minimize $$P$$ at constant $$F$$. We can derive 
-$$P=C \frac{F^2}{R \cos^2(\alpha) }$$. So, to hover with minimal power one needs large blades (wings) turning slowly
-($$\omega\propto \frac{F}{R^2 \sin^2(\alpha)}$$). Maybe something with very large propeller blades, limited by other engineering
-requirements would be better. Like in this example of human powered helicopter:
+In a previouis [post]({{ site.baseurl }}{% link _posts/2020-11-23-on-drones.md %})
+I discussed the physics of hovering drones and helicopters. My interest in the
+physics of propellers was reignited by the " faster than the wind - downwind" controversy:
 
 <div style="text-align: center">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zDq10GsbVJU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yCsgoLc_fzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-A similar analysis keeping $$R$$ constant would let us conclude that blades with very low angle of attack spinning fast
-would be the best solution. To be followed.  
+After searching the web a while I found quite a few places where the propeller equation is derived
+and discussed, <a href="https://www.electricrcaircraftguy.com/2014/04/propeller-static-dynamic-thrust-equation-background.html 
+"> like this one.</a> Unfortunately none of them are simple enough for me. They helped me
+understand that my analysis was quite wrong. Fortunately my conclusions were not so bad.
+
+Using the momentum change of the air under the action of 
+the blades of size $$R$$ rotating at frequency $$f$$ and advancing with $$V$$, 
+simple estimate of the thrust $$T$$ can be obtained as follows:
+
+$$ T= K M (V_{displaced}-V_{relative})$$ 
+
+where $$ M = \rho_{air} f R^2 p$$ is the mass of the displaced air, 
+$$V_{displaced}=f p$$ and $$V_{relative}=V-V_{wind}$$. 
+Here $$p$$ is the linear amount of air displaced by the blades rotating once, the 'pitch', and 
+$$K$$ is some constant. For better agreement with data  <a href="https://www.electricrcaircraftguy.com/2014/04/propeller-static-dynamic-thrust-equation-background.html 
+"> some assume</a> $$K=K(\frac{R}{p})$$ in order to take into account details of the aerodynamics.
+
+For the case of the hovering drone/helicopter we have the following relations for thrust and 
+power:
+
+$$ T=K(\frac{R}{p}) \rho_{air} f^2 R^2 p^2, \quad P= L(\frac{R}{p}) \rho_{air} f^3 R^3 p^2 $$
+
+A self similar propeller having $$\frac{R}{p}$$ constant and working at constant force would 
+require a power 
+
+$$P \sim \frac{\sqrt{F^3}}{R}$$ 
+
+thus implying that the most efficient hovering is done with large propellers driven at low 
+frequency. It should also be a large pitch propeller, given that $$\frac{R}{p}$$ is constant.
+
+For the Blackbird driving downwind we have the thrust:
+
+$$ T=K(\frac{R}{p}) \rho_{air} f R^2 p (f p - V + V_{wind}) $$
+
+It is tempting to assume that the coupling between the propeller and the wheels which 
+ $$f*d=V$$ ($$d$$ is also the length linking torque on the propeller
+and linear force on the wheels) will reduce to $$f*p=V$$ in some reference frame. In this 
+case 
+
+$$ F=K(\frac{R}{p}) \rho_{air}  R^2  V V_{wind}  $$
+
+which shows that it is the wind which drives the vehicle in front of it.  The relation 
+$$f*p=V$$ could be the link to a geometrical 
+interpretation of the movement Down Wind Faster than Wind mode of propulsion. As in the 
+video above the propeller could be viewed as a wheel rolling on some track moving with the wind.
+We use the symbol $$F$$ because this force driving the vehicle is not exactly the propeller 
+thrust, and describes the action of the wind and the reaction of the wheels.
+ 
+
+If I understand correctly the Blackbird can move both downwind and upwind. In the upwind direction 
+the propeller acts as a wind turbine driving the wheels. The question is what happens if the 
+land-yacht is stationary $$V=0$$. Which way does it go? The last formula implies that the force
+is zero (small?) for stationary vehicles. Thus the $$V=0$$ state is an equilibrium one, but 
+non-stationary. Small perturbations will start the motion. My guess is that the relationship between 
+the pitch of the propeller and the mechanics of the wheel-propeller coupling will determine
+which is the more probable mode. 
+
+
