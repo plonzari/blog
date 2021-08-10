@@ -7,8 +7,9 @@ categories:
             - living
 ---
 
-Recently a very interesting problem came to my attention. It is extremely interesting given that 
-it can have practical applications for many real life decisions.
+Recently the "secretary problem"  came to my attention. It is extremely interesting given that 
+it can have practical applications for many real life decisions and the solution seems 
+counterintuitive to me.
 
 Suppose that you have to find a good candidate for a job. The candidates are interviewed one at a time,
 each interview has a fixed cost $$c$$ and each candidate can give a gain $$X_i$$ to your firm, drawn
@@ -16,11 +17,12 @@ from some distribution. After each interview an irrevocable decision to hire or 
 must be taken. The problem is finding the strategy that maximizes the gain. 
 
 <a href="https://en.wikipedia.org/wiki/Optimal_stopping"> According to Wikipedia </a>
- this is an example of a stopping problem, sometimes called "secretary problem", clearly so called 
- because (re)introduced by some "Mad Men" in the 60's.
+ this is an example of a stopping problem, sometimes called "secretary problem". This name
+must have been chosen by some "Mad Men" in the 60's.
   
-In many cases the best strategy seems to be passing the first $$T$$ candidates and then hiring the 
-candidate that is the best with respect to those interviewed before. The value of the threshold depends on the details of the problem. 
+In many cases the best strategy seems to be passing over the first $$T$$ candidates and then 
+hiring the candidate that is the best with respect to those interviewed before. 
+The value of the threshold depends on the details of the problem. 
 For negligible interview cost and uniform distribution of candidate gains,
  $$T$$ is the closest integer to $$\sqrt{N}$$  where $$N$$ is the number of candidates. 
 
