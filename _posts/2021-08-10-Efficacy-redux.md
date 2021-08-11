@@ -30,8 +30,8 @@ the new virus variant(s). My guess is that much of the difference is due to incr
 behaviour of the vaccinated. Also, the persons vaccinated first are not typical. 
 The persons at risk (due to occupation or comorbidities) have been prioritized and are, probably, 
 more open to vaccinate. Therefore the baseline risk (without the vaccine) of the 
-vaccinated population is higher than average and it is normal to have more people sick while 
-vaccinated than expected.
+vaccinated population is higher than average and it is normal to have more people than expected
+sick while vaccinated.
 
 I expect in the future that more data and a better vaccine coverage will show higher effective 
 efficacy. There will also be a public health communication problem as the proportion of 
