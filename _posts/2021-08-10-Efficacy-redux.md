@@ -7,7 +7,7 @@ categories: numbers
 ---
 In a previous [post]({{ site.baseurl }}{% link _posts/2020-11-23-Vaccine.md %})
 I analyzed the data from the Moderna and Pfizer vaccines trials. Recent data from the romanian 
-autorities allows us to estimate values for the vaccine efficacy which are significantly lower 
+authorities allows us to estimate values for the vaccine efficacy which are significantly lower 
 than what was measured in the trials.
 
 Latest data show that about 80% of the hospitalized patients and 90% of the dead are unvaccinated.
@@ -26,9 +26,12 @@ death is higher ($$V_e=.66$$) but far from absolute.
 Probably better data will increase these estimates but not enough to approach even the lowest 
 estimates one can find ($$.6$$ efficacy in preventing hospitalization). Many experts blame the 
 lower efficacy on the prevalence of
-the new virus variant(s). My guess is that most of the difference is due to increasingly dangerous 
-behaviour of the vaccinated and the fact that those exposed to an increased risk of infection 
-should be less hesitant to vaccinate. 
+the new virus variant(s). My guess is that much of the difference is due to increasingly dangerous 
+behaviour of the vaccinated. Also, the persons vaccinated first are not typical. 
+The persons at risk (due to occupation or comorbidities) have been prioritized and are, probably, 
+more open to vaccinate. Therefore the baseline risk (without the vaccine) of the 
+vaccinated population is higher than average and it is normal to have more people sick while 
+vaccinated than expected.
 
 I expect in the future that more data and a better vaccine coverage will show higher effective 
 efficacy. There will also be a public health communication problem as the proportion of 
