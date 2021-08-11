@@ -13,6 +13,7 @@ wind-powered vehicle to move faster than the wind (in the downwind direction).
 <div style="text-align: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yCsgoLc_fzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+The video describes a type a vehicle (Blackbird) and the physics involved.
 
 After searching the web a while I found quite a few places where the propeller equation is derived
 and discussed, <a href="https://www.electricrcaircraftguy.com/2014/04/propeller-static-dynamic-thrust-equation-background.html 
@@ -38,15 +39,18 @@ power:
 
 $$ T=K(\frac{R}{p}) \rho_{air} f^2 R^2 p^2, \quad P= L(\frac{R}{p}) \rho_{air} f^3 R^3 p^2 $$
 
-A self similar propeller having $$\frac{R}{p}$$ constant and working at constant force would 
-require a power 
+For simplicity we can consider that the structure factor $$\frac{R}{p}$$ is fixed and defines
+a class of propellers. Among those propellers developing a certain level of 
+thrust (vertical force) $T$ requires a power
 
-$$P \sim \frac{\sqrt{F^3}}{R}$$ 
+$$P \sim \frac{\sqrt{T^3}}{R}$$ 
 
 thus implying that the most efficient hovering is done with large propellers driven at low 
-frequency. It should also be a large pitch propeller, given that $$\frac{R}{p}$$ is constant.
+frequency. It should also be a large pitch propeller, given that we have assumed 
+$$\frac{R}{p}$$ is constant.
 
-For the Blackbird driving downwind we have the thrust:
+
+Getting back to the Blackbird driving downwind we have the equation:
 
 $$ T=K(\frac{R}{p}) \rho_{air} f R^2 p (f p - V + V_{wind}) $$
 
@@ -59,8 +63,8 @@ $$ F=K(\frac{R}{p}) \rho_{air}  R^2  V V_{wind}  $$
 
 which shows that it is the wind which drives the vehicle in front of it.  The relation 
 $$f*p=V$$ could be the link to a geometrical 
-interpretation of the movement Down Wind Faster than Wind mode of propulsion. As in the 
-video above the propeller could be viewed as a wheel rolling on some track moving with the wind.
+interpretation of the  "Down Wind Faster than Wind" mode of propulsion. As in the 
+video above the propeller could be viewed as a wheel rolling on an imaginary track moving with the wind.
 We use the symbol $$F$$ because this force driving the vehicle is not exactly the propeller 
 thrust, and describes the action of the wind and the reaction of the wheels.
  
