@@ -25,12 +25,12 @@ simple estimate of the thrust $$T$$ can be obtained as follows:
 
 $$ T= K M (V_{displaced}-V_{relative}).$$ 
 
-Here $$ M = \rho_{air} f R^2 p$$ 
-
-is the mass of the displaced air while 
-$$V_{displaced}=f p$$ and $$V_{relative}=V-V_{wind}$$. 
-Here $$p$$ is the linear amount of air displaced by the blades rotating once, the 'pitch', and 
-$$K$$ is some constant. For better agreement with data  <a href="https://www.electricrcaircraftguy.com/2014/04/propeller-static-dynamic-thrust-equation-background.html 
+Here $$ M = \rho_{air} f R^2 p,$$ is the mass of the displaced air while 
+$$V_{displaced}=f p,$$  $$V_{relative}=V-V_{wind}$$ and and 
+$$K$$ is some constant. 
+The 'pitch' $$p$$ is the linear amount of air displaced by the blades rotating once. 
+For better agreement with data  
+<a href="https://www.electricrcaircraftguy.com/2014/04/propeller-static-dynamic-thrust-equation-background.html 
 "> some assume</a> $$K=K(\frac{R}{p})$$ in order to take into account details of the aerodynamics.
 
 For the case of the hovering drone/helicopter we have the following relations for thrust and 
