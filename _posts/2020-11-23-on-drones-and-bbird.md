@@ -32,12 +32,12 @@ $$K$$ is some constant.
 The 'pitch' $$p$$ is the linear amount of air displaced by the blades rotating once. 
 For better agreement with data  
 <a href="https://www.electricrcaircraftguy.com/2014/04/propeller-static-dynamic-thrust-equation-background.html 
-"> some assume</a> $$K=K(\frac{R}{p})$$ in order to take into account details of the aerodynamics.
+"> some assume</a> $$K=K\left(\frac{R}{p}\right)$$ in order to take into account details of the aerodynamics.
 
 For the case of the hovering drone/helicopter we have the following relations for thrust and 
 power:
 
-$$ T=K(\frac{R}{p}) \rho_{air} f^2 R^2 p^2, \quad P= L(\frac{R}{p}) \rho_{air} f^3 R^3 p^2 $$
+$$ T=K\left(\frac{R}{p}\right) \rho_{air} f^2 R^2 p^2, \quad P= L\left(\frac{R}{p}\right) \rho_{air} f^3 R^3 p^2 $$
 
 For simplicity we can consider that the structure factor $$\frac{R}{p}$$ is fixed and defines
 a class of propellers. Among those propellers developing a certain level of 
@@ -52,14 +52,14 @@ $$\frac{R}{p}$$ is constant.
 
 Getting back to the Blackbird driving downwind we have the equation:
 
-$$ T=K(\frac{R}{p}) \rho_{air} f R^2 p (f p - V + V_{wind}) $$
+$$ T=K\left(\frac{R}{p}\right)\rho_{air} f R^2 p (f p - V + V_{wind}) $$
 
 It is tempting to assume that the coupling between the propeller and the wheels which 
  $$f*d=V$$ ($$d$$ is also the length linking torque on the propeller
 and linear force on the wheels) will reduce to $$f*p=V$$ in some reference frame. In this 
 case 
 
-$$ F=K(\frac{R}{p}) \rho_{air}  R^2  V V_{wind}  $$
+$$ F=K\left(\frac{R}{p}\right) \rho_{air}  R^2  V V_{wind}  $$
 
 which shows that it is the wind which drives the vehicle in front of it.  The relation 
 $$f*p=V$$ could be the link to a geometrical 
