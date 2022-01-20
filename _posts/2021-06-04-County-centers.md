@@ -31,12 +31,14 @@ The difference is entirely explained by their latitude.
 <a href="https://nbviewer.jupyter.org/github/plonzari/blog/blob/gh-pages/_includes/ro-centroids-folium.ipynb 
 "> A much less colorful version with code. </a>
 
-Also, some ten kilometers south of the town of Fagaras, one can find the 
+Also south of the town of Făgăraș, one can find the 
 <a href="https://nbviewer.jupyter.org/github/plonzari/blog/blob/gh-pages/_includes/ro-circles.ipynb 
 "> inner and outer circle centers. </a>
 The inner circle center is the only point in Romania located more than 218km from any other country.
 Similarly the outer circle center is the only point located less than 371km from any other 
-point in Romania.
+point in Romania. The outer circle is defined by the westernmost point of Romania (near a three countries border)
+and the easternmost point (near Sulina town in the Danube delta). Its center is very near a summit in the Făgăraș 
+mountain chain.
 
 As an extra, I was exploring the application of the graph coloring ideas to the county map of Romania.
 The map cannot be colored with three colors without having neighbors with the same color. 
