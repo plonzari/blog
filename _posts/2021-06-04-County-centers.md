@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Geographical center of Romanian counties
+title: Geographic centers of Romanian counties
 date:   2021-06-4T2:51:45+00:00
 author: plonzari
 categories: 
