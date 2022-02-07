@@ -4,14 +4,15 @@ title: Evolution and identity
 date:   2022-2-6T2:51:45+00:00
 author: plonzari
 categories: 
-            - living
+            - education
+            - politics
 ---
 
 A recent <a href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00158-8"> study </a> 
  investigates the relation between  evolution 
 acceptance and evolution knowledge using largish numbers of students (mostly enrolled in biology 
 related university programs) from many European countries. 
-The authors are European researchers from many universities, supported by EU funding,
+The authors are European researchers from many universities, supported by EU funding.
 <div style="text-align: center">
 <a href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00158-8/figures/4"> 
 <img src="{{ site.baseurl }}/assets/images/ReligionAndEvolution.png" width="500" /></a>
