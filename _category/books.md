@@ -1,4 +1,4 @@
 ---
-tag: python
+tag: books
 permalink: "/category/books"
 ---
