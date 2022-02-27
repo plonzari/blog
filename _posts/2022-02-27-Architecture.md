@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thoughts about recent architecture
+title: Thoughts about modern architecture
 date:   2022-2-27T2:51:45+00:00
 author: plonzari
 categories: 
