@@ -12,6 +12,8 @@ Some thoughts concerning the documentary <em> The social dilemma</em> streaming 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uaaC57tcci0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!--more-->
+
 While providing a comprehensive litany of what is (maybe) wrong with social media, 
 the arguments and discussions often left me unsatisfied.
 

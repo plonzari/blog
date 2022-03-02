@@ -10,6 +10,8 @@ I analyzed the data from the Moderna and Pfizer vaccines trials. Recent data fro
 authorities allows us to estimate values for the vaccine efficacy which are significantly lower 
 than what was measured in the trials.
 
+<!--more-->
+
 Latest data show that about 80% of the hospitalized patients and 90% of the dead are unvaccinated.
 The vaccine efficacy can be expressed as $$V_e=1-\frac{p_v}{p}$$ where $$p$$ ($$p_v$$)
 are the incidences of hospitalizations or deaths in the vaccinated (unvaccinated) populations.

@@ -10,6 +10,8 @@ Some time ago I modified a Chrome extension to track the time spent on individua
 During the past year data for 80K visits to different pages on 3982 domains has been registered, 
 together with the time actively spent on them.
 
+<!--more-->
+
 Most pages are visited for a very short time, while there is a significant number of pages on which 
 a much larger time is spent.  
 {% include time_spent_hist.html %}

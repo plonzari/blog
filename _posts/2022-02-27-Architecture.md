@@ -20,11 +20,13 @@ Most houses in Romanian villages actually look like this:
 <img src="{{ site.baseurl }}/assets/images/casa-de-vanzare-5-camere-dolj-calafat-117966358.jpg" width="500" />
 </div>
 
+<!--more-->
+
 These are houses built during the entire communist period (1945-1990). 
 They are definitely not as cute as the first but they are definitely sturdy (made mostly out of brick) 
-and utilitarian, and they do have personality. What strikes me most is that one can see well defined stiles 
-varying from village to village. One can see that there are similar house plans and facade details in 
-each village. These plans are different between villages which can be as close as 50km away 
+and utilitarian, and they do have personality. What strikes me most is that one can see well-defined styles 
+varying from village to village. In one small region many houses share similar plans and/or facade details. 
+These plans are different between villages which can be as close as 50km away 
 (in identical geographical settings). I would like to know how such choices came to be, because one 
 can see a history and evolution in these houses. For example many houses in my grandparents’ village 
 have a veranda, a small room used initially as a kitchen and two large, front sleeping rooms separated 

@@ -13,6 +13,8 @@ I have decided to play a bit more with
 <a href="https://plotly.github.io/plotly.py-docs/generated/plotly.express.choropleth.html"> 
 <code>plotly.express.choropleth</code>. </a>
 
+<!--more-->
+
 Along the Appalachian trail I count 85 counties in 14 states. 
 According to some preliminary  results 16 of those counties have gone to Biden, so the trail is quite red.
 Trump has won with an average of 63%.

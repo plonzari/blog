@@ -15,6 +15,8 @@ speaking in their second language. After listening to the course
 similar phenomena have been documented by several noted researchers and used as 
 useful tools to further explore the intimate link between language and the mind.
 
+<!--more-->
+
 The audiobook itself is full of intriguing ideas. Being a course it is quite 
 difficult to follow and remember all the arguments without serious revisions and 
 careful reading of extra materials after each session (chapter). Nevertheless,

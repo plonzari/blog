@@ -15,6 +15,8 @@ people showing a profound misunderstanding concerning the problems of minorities
 It is really sad to read on channels I used to trust climato-sceptic, anti-feminist and anti-"cancel-culture" articles,
  or to hear that people I thought to be the future of Romania expressing homophobic or anti-vaccination ideas. 
 
+<!--more-->
+
 I found particularly wrenching the  
 <a href="https://pressone.ro/pe-aripile-vantului-zece-oameni-de-cultura-romani-si-o-controversa"> 
 fake controversy around <em>Gone with the wind</em>. </a>

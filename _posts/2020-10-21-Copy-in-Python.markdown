@@ -8,8 +8,10 @@ categories: python
 
 While there are probably thousands of book and web pages dealing with the issue after yet 
 <a href="https://stackoverflow.com/questions/17873384/how-to-deep-copy-a-list"> 
-another take </a> I just need a short reminder: there are three ways to copy an object in Python.
+another take </a> I just need a short reminder: there are three ways to copy an object in 
+Python.
 
+<!--more-->
 
 First we create a list <b> d </b>  with both two lists (<b> a,b </b>) and an integer <b> c. </b> 
 Later we will see the relevance  of the repetition and of the mutable nature of the list type.

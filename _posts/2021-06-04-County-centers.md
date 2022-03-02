@@ -13,7 +13,12 @@ For the moment only latitude and longitude to be checked in
 <a href="https://www.google.com/maps/place/44%C2%B026'18.4%22N+26%C2%B005'30.1%22E/@44.43844,26.0895003,899m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d44.43844!4d26.091689 
 "> Google Maps. </a>
 
+
+
 {% include rocenter.html %}
+
+
+<!--more-->
 
 For example the center of Bucharest seems to be one block north of Cișmigiu Park.
 Also <a href="https://www.google.com/maps/place/45%C2%B050'16.3%22N+24%C2%B059'12.6%22E/@45.8133843,24.9806131,2089m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d45.8378535!4d24.9868211 

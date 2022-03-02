@@ -12,6 +12,7 @@ categories:
   Some <em>Fermi </em>estimates of population structure suggest that 2020 is a turning point in Romanian politics.
 </p>
 
+<!--more-->
 
 As there are slightly more than 20M Romanians and we have almost 80 years life expectancy, one can 
 estimate 250K people for each age slice. This is entirely consistent with a death rate around 1% per year: 

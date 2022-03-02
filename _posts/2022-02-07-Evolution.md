@@ -17,6 +17,9 @@ The authors are European researchers from many universities, supported by EU fun
 <a href="https://evolution-outreach.biomedcentral.com/articles/10.1186/s12052-021-00158-8/figures/4"> 
 <img src="{{ site.baseurl }}/assets/images/ReligionAndEvolution.png" width="500" /></a>
 </div>
+
+<!--more-->
+
 The main result of the study is that evolution acceptance is highly determined by religious faith. The
 attitude towards evolution depends on the country of origin, level of knowledge, and even sex. In the 
 end though it is the religion (no matter the denomination) that explains most of the variation. This reminds me of 

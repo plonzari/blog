@@ -14,6 +14,8 @@ Some thoughts concerning the documentary <em> The Reagans</em> from Showtime.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8dI1OIkiEaM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!--more-->
+
 The first episode is about the transition of Ronald Reagan from a struggling actor to the leader of the conservative wing
 of a Republican Party continuously sliding to the right. The episode is dominated by the tension between Reagan, the quintessential
 middle-american and Reagan, "nobody can be president without being a good actor".

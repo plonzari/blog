@@ -9,6 +9,7 @@ categories: education
 Recently I saw the new <a href="https://www.raspberrypi.org/products/raspberry-pi-400/?resellerType=home"> 
 Raspberry Pi 400 </a> personal computer and wondered how could be used in education.
 
+<!--more-->
 
 <div style="text-align: center">
 <a href="https://www.raspberrypi.org/products/raspberry-pi-400/?resellerType=home"> 

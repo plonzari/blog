@@ -16,6 +16,8 @@ Tiles for a (imperfect) Penrose tiling
 
 <img src="{{ site.baseurl }}/assets/3D/TilingFinal.png" width="620" />
 
+<!--more-->
+
 The Kiss
 
 <script src="https://embed.github.com/view/3d/plonzari/blog/gh-pages/assets/3D/TheKissLP.stl"></script>

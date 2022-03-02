@@ -11,7 +11,9 @@ and Hearst <a href="https://en.wikipedia.org/wiki/Propaganda_of_the_Spanish%E2%8
 with maybe 100000 readers. Radio and television have been considered big revolutions in opinion forming. 
 It is thus reasonable to wonder if the changes caused by social media are something new, different from the past. 
 On the one hand the past shows a more or less gradual increase in the speed and strength of  information dissemination and opinion-forming. 
-The present folows this quantitative rule but, on the other hand, it could also be qualitatively different.
+The present follows this quantitative rule but, on the other hand, it could also be qualitatively different.
+
+<!--more-->
 
 There are many models for opinion-forming (rumor-spreading) but the one I like most is based on the well-known 
 Ising model. See for example 

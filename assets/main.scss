@@ -123,8 +123,11 @@ table.gsc-input
 
 header.site-header
 {
-  background-size: 100% 100%;
-  background-image:url("{{ site.baseurl }}/assets/images/cetate.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position:center;
+  background-image:url("{{ site.baseurl }}/assets/images/cetate.jpg.png");
+
 }
 
 body {background-color:ivory ;}

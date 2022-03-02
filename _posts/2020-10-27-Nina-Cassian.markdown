@@ -15,6 +15,7 @@ for historical objectivity.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/QzYzYdWNAYg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!--more-->
 
 Although Nina Cassian is a very well known name in Romania, one of the two women poets everyone knows about 
 (the other one being Ana Blandiana), her name is mostly associated with children's books, and very few actually 

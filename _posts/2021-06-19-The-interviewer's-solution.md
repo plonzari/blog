@@ -11,6 +11,8 @@ Recently the "secretary problem"  came to my attention. It is extremely interest
 it can have practical applications for many real life decisions and the solution seems 
 counterintuitive to me.
 
+<!--more-->
+
 Suppose that you have to find a good candidate for a job. The candidates are interviewed one at a time,
 each interview has a fixed cost $$c$$ and each candidate can give a gain $$X_i$$ to your firm, drawn
 from some distribution. After each interview an irrevocable decision to hire or not the candidate 

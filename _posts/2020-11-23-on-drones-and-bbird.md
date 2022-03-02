@@ -10,6 +10,8 @@ I discussed the physics of hovering drones and helicopters. My interest in the
 physics of propellers was reignited by video discussing the possibility of a 
 wind-powered vehicle to move faster than the wind (in the downwind direction). 
 
+<!--more-->
+
 <div style="text-align: center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yCsgoLc_fzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>

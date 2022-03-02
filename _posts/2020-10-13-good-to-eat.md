@@ -16,6 +16,8 @@ Breakfast: egg-avocado toast
 
 Stack the ingredients in this order.
 
+<!--more-->
+
 Lunch: smoked salmon pasta (2-3 portions)
 
    * 200g gnocchi

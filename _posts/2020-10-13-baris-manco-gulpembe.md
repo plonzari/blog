@@ -12,6 +12,8 @@ Originally posted October 2020.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zd8IFDgQCUc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+<!--more-->
+
 Seen in Turkish series 
 <a href="https://www.imdb.com/title/tt7146600/" data-type="URL" data-id="https://www.imdb.com/title/tt7146600/">Boru</a> 
 from Netflix. Awful series but learned about 
