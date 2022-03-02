@@ -10,6 +10,8 @@ categories: living
 
 went down to the beach (to play one day)
 
+<!--more-->
+
 and maggie discovered a shell that sang  
 so sweetly she couldn't remember her troubles,and 
 

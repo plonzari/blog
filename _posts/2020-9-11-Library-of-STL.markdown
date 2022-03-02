@@ -14,7 +14,9 @@ together several decorative 3D models. Some are even printed.
 
 Tiles for a (imperfect) Penrose tiling
 
+<div style="text-align: center">
 <img src="{{ site.baseurl }}/assets/3D/TilingFinal.png" width="620" />
+</div>
 
 <!--more-->
 

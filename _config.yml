@@ -24,6 +24,7 @@ description:  Life recipes with a romanian twist
 header: /assets/images/cetate.jpg.png
 show_excerpts: true
 excerpt_separator: <!--more-->
+# paginate: 5
 
 baseurl: # /blog # the subpath of your site, e.g. /blog ... is the repository for github pages
 url: #"https://plonzari.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -34,6 +35,7 @@ github_username:  plonzari
 theme: minima
 plugins:
   - jekyll-feed
+#  - jekyll-paginate
 
 collections:
   category:
