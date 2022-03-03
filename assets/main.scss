@@ -127,7 +127,8 @@ header.site-header
   background-repeat: repeat;
   background-position:center;
   background-image:url("{{ site.baseurl }}/assets/images/cetate.jpg.png");
-  height:100px;
+  height:98px;
+  border-top:1px
 }
 
 body {background-color:ivory ;}
