@@ -17,6 +17,9 @@ Most houses in Romanian villages actually look like this:
 
 <div style="text-align: center">
 <img src="{{ site.baseurl }}/assets/images/casa-de-vanzare-3-camere-gorj-racoti-44471575.jpg" width="500" />
+</div>
+
+<div style="text-align: center">
 <img src="{{ site.baseurl }}/assets/images/casa-de-vanzare-5-camere-dolj-calafat-117966358.jpg" width="500" />
 </div>
 
