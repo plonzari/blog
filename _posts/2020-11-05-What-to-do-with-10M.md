@@ -2,7 +2,7 @@
 title: What to do for education with 50M dollars?
 date: 2020-11-04T22:58:03+00:00
 author: plonzari
-layout: post-with-mathjax
+layout: post
 categories: education
 ---
 

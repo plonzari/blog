@@ -11,7 +11,7 @@ layout: default
         {{ page.date | date: date_format }}
       </time>
       {%- if page.modified_date -%}
-        ~
+        ~ 
         {%- assign mdate = page.modified_date | date_to_xmlschema -%}
         <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
           {{ mdate | date: date_format }}
@@ -24,21 +24,11 @@ layout: default
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
       {%- endif -%}</p>
-        <div class="tags">
-          {% assign sortedCategories = page.categories | sort %}
-          {% for category in sortedCategories %}
-          <span class="tag">
-            <a href="{{ site.baseurl }}/category/{{ category }}">#{{ category }}</a>
-        </span>
-    {% endfor %}
-  </div>
   </header>
-
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

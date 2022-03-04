@@ -3,17 +3,11 @@ layout: default
 ---
 
 <div class="home">
-
-
-
   {%- if page.title -%}
-    <h1 class="page-heading">{{  page.title | escape  }}</h1>
+    <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
-
-
-
 
    <h3 class="category-topic">Topics:</h3>
     {% assign sortedCategories = site.categories | sort %}
@@ -37,9 +31,7 @@ layout: default
 
   {%- if posts.size > 0 -%}
     {%- if page.list_title -%}
-
-
-    <h2 class="post-list-heading">{{ page.list_title }}</h2>
+      <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -50,22 +42,21 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-
           <div class="tags">
-    {% assign sortedCategories = post.categories | sort %}
-    {% for category in sortedCategories %}
-        <span class="tag">
-            <a href="{{ site.baseurl }}/category/{{ category }}">#{{ category }}</a>
-        </span>
-    {% endfor %}
-</div>
+            {% assign sortedCategories = post.categories | sort %}
+            {% for category in sortedCategories %}
+              <span class="tag">
+                <a href="{{ site.baseurl }}/category/{{ category }}">#{{ category }}</a>
+              </span>
+            {% endfor %}
+          </div>
+
         </h3>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-            <a class="tag" href="{{ post.url | relative_url }}">
+        <a class="tag" href="{{ post.url | relative_url }}">
                 Read more
             </a>
-
         {%- endif -%}
       </li>
       {%- endfor -%}
