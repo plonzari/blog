@@ -141,7 +141,15 @@ fill="none" stroke="none">
 10 4 17 10 17 12 0 60 93 60 115 0 9 7 27 16 40 8 13 16 43 17 67 1 36 -4 49
 -31 78 l-32 35 -668 1 c-367 1 -677 -2 -690 -7z" style="fill:yellow" />
 
-
+<circle fill="red" cx="1300" cy="1175" r="1000">
+    <animate
+      attributeName="r"
+      from="0"
+      to="1000"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+  </circle>
 
 </g>
 </svg>
