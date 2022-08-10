@@ -1,9 +1,11 @@
 ---
 layout: post
 title: The burden of knowledge
-date:   2022-08-10T02:51:45+00:00
+date:   2022-08-10T00:51:45+00:00
 author: plonzari
-categories: politics
+categories: 
+            - politics
+            - education
 ---
 <a href="https://astralcodexten.substack.com/p/the-low-hanging-fruit-argument-models"> 
  Some people </a> argue that most [easy] great ideas have been [plucked] already and great discoveries 
