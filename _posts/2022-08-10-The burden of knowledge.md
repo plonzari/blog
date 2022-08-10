@@ -13,9 +13,9 @@ needs to buy - hire the person/team that holds the IP. I recently found a <a hre
  paper </a> that formalizes this idea using the concept of [knowledge burden].
 <!--more-->
 
-The authors are mainly looking at the rate of startup funding and the rate of employment of highly skilled 
-individuals in those startups. As the amount of technical knowledge is growing faster than exponentially
-marketable ideas also require much more skills and knowledge. As a result the startup founders need to be 
+The authors are mainly looking at the [data for] the rate of startup founding and the rate of employment of 
+highly skilled individuals in those startups. As the amount of technical knowledge is growing faster than 
+exponentially marketable ideas also require much more skills and knowledge. As a result the startup founders need to be 
 older and more experienced. More realistically, large diversified teams are required to bring an idea to 
 fruition. Therefore, there are fewer high-tech startups. The fraction of PhD's that are founders is 
 declining even faster.
