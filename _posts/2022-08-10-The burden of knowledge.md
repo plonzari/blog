@@ -8,14 +8,14 @@ categories:
             - education
 ---
 <a href="https://astralcodexten.substack.com/p/the-low-hanging-fruit-argument-models"> 
- Some people </a> argue that most [easy] great ideas have been [plucked] already and great discoveries 
+ Some people</a> argue that most [easy] great ideas have been [plucked] already and great discoveries 
 are more and more difficult to come by. My take on this is that over the past century there has been a 
 decreasing number of marketable innovations. These days is very difficult to sell ideas and one usually
 needs to buy - hire the person/team that holds the IP. I recently found a <a href="https://www.nber.org/system/files/working_papers/w27787/w27787.pdf"> 
- paper </a> that formalizes this idea using the concept of [knowledge burden].
+ paper </a> that formalizes this idea using the concept of *knowledge burden*.
 <!--more-->
 
-The authors are mainly looking at the [data for] the rate of startup founding and the rate of employment of 
+The authors are mainly looking (with data) at the rate of startup founding and the rate of employment of 
 highly skilled individuals in those startups. As the amount of technical knowledge is growing faster than 
 exponentially marketable ideas also require much more skills and knowledge. As a result the startup founders need to be 
 older and more experienced. More realistically, large diversified teams are required to bring an idea to 
