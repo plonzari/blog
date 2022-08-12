@@ -12,7 +12,7 @@ categories:
 are more and more difficult to come by. My take on this is that over the past century there has been a 
 decreasing number of marketable innovations. These days is very difficult to sell ideas and one usually
 needs to buy - hire the person/team that holds the IP. I recently found a <a href="https://www.nber.org/system/files/working_papers/w27787/w27787.pdf"> 
- paper </a> that formalizes this idea using the concept of *knowledge burden*.
+ paper</a> that formalizes this idea using the concept of *knowledge burden*.
 <!--more-->
 
 The authors are mainly looking (with data) at the rate of startup founding and the rate of employment of 
@@ -22,7 +22,7 @@ older and more experienced. More realistically, large diversified teams are requ
 fruition. Therefore, there are fewer high-tech startups. The fraction of PhDs that are founders is 
 declining even faster.
 
-The <a href="https://www.nber.org/system/files/working_papers/w27787/w27787.pdf"> paper </a> is a fascinating 
+The <a href="https://www.nber.org/system/files/working_papers/w27787/w27787.pdf"> paper</a> is a fascinating 
 read. It is also depressing as hell. Gone are the times of the inventor tinkering in a garage and living off 
 his brilliance. To monetize an idea one needs commercial and administrative experience in addition to an always
 expanding array of technical skills. Better find employment in a large existing organization.
