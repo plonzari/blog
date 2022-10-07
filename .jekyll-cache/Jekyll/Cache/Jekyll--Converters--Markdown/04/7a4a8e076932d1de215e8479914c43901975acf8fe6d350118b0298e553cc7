@@ -1,0 +1,51 @@
+I"V<p>Few days ago TESLA <a href="https://livestream.tesla.com/"> introduced </a> their humanoid robot, Optimus. 
+One question I thought about some regarding the bot is [why humanoid?]. And one answer could be the ability to 
+learn by observing.</p>
+
+<!--more-->
+
+<div style="text-align: center">
+<img src="/assets/images/several humans and robots walking around, Realistic, Photo, Detailed and Intricate.png" width="500" />
+<p>
+Stable diffusion, prompt: several humans and robots walking around, Realistic, Photo, Detailed and Intricate.
+Seed: 0, Sampler: plms, Inference Steps: 50, Guidance Scale: 10.9, Fix Faces: GFPGANv1.3, Upscale: RealESRGAN_x4plus
+</p>
+</div>
+
+<p>The history of technology in general, and more recently robotics and machine learning has shown that the best 
+technical solutions do not imitate biology. Systems designed for specific tasks are much easier to optimize and
+easily reach performance levels superior to comparable biological solutions. Thus, a humanoid robot would be 
+suboptimal on any individual task.</p>
+
+<p>Initially I thought that versatility would provide the biggest advantage for such a form. But it is far from 
+obvious why a spider-like robot would be less versatile. Another possibility is that a humanoid robot can be better 
+used in spaces and with tools already designed for humans. This would mean that a humanoid form is just the first 
+step in the evolution of the independent robot.</p>
+
+<p>My thinking is that a humanoid form will also provide a big advantage for the training of the robot. Training AI’s
+for object detection, for example, is normally done starting from datasets of recorded images. Surprisingly 
+<a href="https://arxiv.org/abs/2202.00660"> “mobile” embodied AI agents</a> seem to be superior to their static 
+counterparts. In general one could very well understand that “learning by doing” would be a better strategy, but 
+still, not an argument for a humanoid form.</p>
+
+<p>Yann LeCun, AI chief at Meta, has published a 
+<a href="https://openreview.net/forum?id=BZ5a1r-kVsf"> paper</a> a few months ago 
+laying out his  vision for “autonomous” AIs that can learn and experience the world as animals and humans.
+The paper is very dense, and I could not follow it in detail, but one point that struck me the fact that animals 
+seem to learn much more from observation than for doing.</p>
+
+<div style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xAXvfVTgqr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+<p>
+The tribulations of artificial systems, typically trained using reinforcement learning, do not look like learning
+in animals.</p>
+</div>
+
+<p>LeCun points out that animals have a common sense, a world model they can draw on, predict the future and largely 
+avoid fatal courses of action when learning a new skill. This common sense can be itself taught by observation and
+allows them to learn skills after relatively few trials. And here comes back the importance for our robots to be 
+humanoid. The best way for them to learn is by imitating other agents with similar builds. 
+And the only examples we can provide in quantity and diverse enough are tasks performed by humans. Therefore, 
+the robots have to look like us in order to learn from us.</p>
+
+:ET
