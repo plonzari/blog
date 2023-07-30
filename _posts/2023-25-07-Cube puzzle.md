@@ -79,7 +79,7 @@ image of the final solution). Introduce a Jupyter notebook."
 For the Python code ChatGPT has needed quite a bit of coaxing and even then, I could only use 
 the answers for inspiration.
 
-{% include cube_construct.html %}
+{% include cube_notebook.html %}
 
 <div style="text-align: center">
 <img src="{{ site.baseurl }}/assets/images/cube_plot.png" width="500" />
