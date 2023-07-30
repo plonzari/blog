@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Politics on the Appalachian Trail
-date:   2020-11-25T2:51:45+00:00
+date:   2020-11-25T02:51:45+0000
 author: plonzari
 categories: politics
 ---
