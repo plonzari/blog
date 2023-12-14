@@ -1,0 +1,86 @@
+I"¬<p>Another list, now  of things I learned in the past months.
+<!--more--></p>
+<h3 id="python-parallelism">Python parallelism</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>memory</th>
+      <th>start</th>
+      <th>run</th>
+      <th>kernel</th>
+      <th>obs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>coroutines</td>
+      <td>very low</td>
+      <td>very fast</td>
+      <td>slow</td>
+      <td>main thread</td>
+      <td>Cooperative concurrency, non-preemptive multitasking. Using yield in <em>generators</em> or <em>async/await</em> (or greenlets?) tasks pass control between themselves. Could be run with threads.</td>
+    </tr>
+    <tr>
+      <td>threads</td>
+      <td>low</td>
+      <td>fast</td>
+      <td>slow</td>
+      <td>kernel threads</td>
+      <td>Preemptive concurrency. Due to GIL, not real multitasking (parallelism). Same memory context. Like coroutines useful only for non-blocking I/O (network or disk) or non-blocking external function calls.</td>
+    </tr>
+    <tr>
+      <td>subinterpreters</td>
+      <td>large</td>
+      <td>slow</td>
+      <td>fast</td>
+      <td>kernel threads</td>
+      <td>A full interpreter with a separate GIL. Capable of true multitasking. Communicates through serialized (pickle) messages (objects). In principle capable to access shared memory. Very new, maybe preparing a no-GIL future.</td>
+    </tr>
+    <tr>
+      <td>processes</td>
+      <td>very large</td>
+      <td>very slow</td>
+      <td>fast</td>
+      <td>processes</td>
+      <td>Traditional multitasking solution for CPU bound tasks.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>As a comparison <em>virtual threads</em> for Java are the equivalent of coroutines in Java. They allow for low memory, 
+fast to spin-up  <em>preemptive</em> multitasking. They are transparently assigned by JVM to pre-spun kernel threads.</p>
+
+<h3 id="what-is-the-deal-with-cassandra">What is the deal with Cassandra?</h3>
+
+<p>Simply put best distributed DB. Multipurpose, very scalable, very resilient, open source, SQL compatible, high read and write.
+There is a price though.</p>
+
+<ol>
+  <li>No strict ACID. One can tune for the required balance between availability (AP) and consistency (CP).</li>
+  <li>It is not relational. The columnar structure does not allow for foreign keys or joins, and many SQL queries are impossible or very slow.</li>
+  <li>Data scheme must be carefully chosen (using denormalization and duplications) in order to allow for the needed usage (queries).</li>
+</ol>
+
+<h3 id="number-of-geneticancestors">Number of (genetic)ancestors</h3>
+
+<p>If one goes \(n\) generations in the past, one has, as a first approximation, \(2^n\) ancestors. This has to break 
+down for times earlier than about 1500CE , because then the number of ancestors becomes larger than the world population.
+The consequence is that, a european living now, has most of the people living in 1400 in Europe as ancestors.
+This takes into account that the parents must be some kind of cousins (hopefully more than 5-6 generations removed)
+and many of the hypothetical \(2^n\) ancestors are the same person. The exact calculation takes into account some migration patterns.
+About 20% of people living in 1400 have no descendants today. Therefore, I can count as ancestors members of most medieval noble 
+houses (which can be easily verified to have descendants today).</p>
+
+<p>Maybe surprising, I have no genetic relation with most of my ancestors! Indeed, let us say that each child gets half of her DNA 
+from the mother and half from the father. If each half passes as one stretch then she must have DNA from either the maternal grandfather 
+or the  maternal grandmother, but not both. Of course, things are more complicated as there are 22 autosomal chromosomes, and there is 
+recombination too, which ensures that her genome has DNA fragments independently sampled from all the grandparents. But even so, 
+looking at ancestors \(n\) generations removed there are about $$K=2(22+33*(n-1))## ancestors that
+could have contributed DNA fragments to her genome. So, before 1800, the number of fragments is smaller than the number of ancestors 
+of someone living now. Already, probably one of her grand-grand-grand-grand parents (5 generations removed) did not contribute to her 
+genome. I myself have no known ancestors  of <em>noble blood</em> but many people can find one 19â€™th century noble in their genealogical 
+tree. Unfortunately this is not enough to claim <em>noble blood</em> on genetic bases.</p>
+
+:ET

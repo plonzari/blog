@@ -1,0 +1,11 @@
+I"Ù<p>Another list of things I learned in the past 2023.</p>
+
+<!--more-->
+<h3 id="python-parallelism">Python parallelism</h3>
+
+<p>| type | memory | start | run | kernel | obs
+<strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong><strong>__</strong>__
+| coroutines | very low | very fast | slow | main thread | cooperative concurrency, non-preemptive multitasking. Using yield in generators or async/await tasks pass control between themselves|
+| threading  | low      | fast      | slow | threads     | preemptive concurrency. Due to GIL not real multitasking (parallelism). As coroutines good only for non-blocking I/O (network or disk) or external function calls.|</p>
+
+:ET

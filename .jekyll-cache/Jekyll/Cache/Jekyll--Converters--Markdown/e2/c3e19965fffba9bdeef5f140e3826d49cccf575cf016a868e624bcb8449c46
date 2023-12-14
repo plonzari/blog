@@ -1,0 +1,63 @@
+I"S<p>Another list of things I learned in the past 2023.</p>
+
+<!--more-->
+<h3 id="python-parallelism">Python parallelism</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>type</th>
+      <th>memory</th>
+      <th>start</th>
+      <th>run</th>
+      <th>kernel</th>
+      <th>obs</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>coroutines</td>
+      <td>very low</td>
+      <td>very fast</td>
+      <td>slow</td>
+      <td>main thread</td>
+      <td>Cooperative concurrency, non-preemptive multitasking. Using yield in generators or async/await tasks pass control between themselves</td>
+    </tr>
+    <tr>
+      <td>threading</td>
+      <td>low</td>
+      <td>fast</td>
+      <td>slow</td>
+      <td>threads</td>
+      <td>Preemptive concurrency. Due to GIL not real multitasking (parallelism). As coroutines good only for non-blocking I/O (network or disk) or external function calls.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Priority apples</th>
+      <th>Second priority</th>
+      <th>Third priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ambrosia</td>
+      <td>gala</td>
+      <td>red delicious</td>
+    </tr>
+    <tr>
+      <td>pink lady</td>
+      <td>jazz</td>
+      <td>macintosh</td>
+    </tr>
+    <tr>
+      <td>honeycrisp</td>
+      <td>granny smith</td>
+      <td>fuji</td>
+    </tr>
+  </tbody>
+</table>
+:ET
