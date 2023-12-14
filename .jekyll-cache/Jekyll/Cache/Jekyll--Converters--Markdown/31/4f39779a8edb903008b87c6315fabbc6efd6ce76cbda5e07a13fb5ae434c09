@@ -1,0 +1,192 @@
+I"€_<p>While there are probably thousands of book and web pages dealing with the issue after yet 
+<a href="https://stackoverflow.com/questions/17873384/how-to-deep-copy-a-list"> 
+another take </a> I just need a short reminder: there are three ways to copy an object in 
+Python.</p>
+
+<!--more-->
+
+<p>First we create a list <b> d </b>  with both two lists (<b> a,b </b>) and an integer <b> c. </b> 
+Later we will see the relevance  of the repetition and of the mutable nature of the list type.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+<span class="n">b</span><span class="o">=</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<span class="n">c</span><span class="o">=</span><span class="mi">5</span>
+<span class="n">d</span><span class="o">=</span><span class="p">[</span><span class="n">a</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">,</span><span class="n">d</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 2] [3, 4] 5 [[1, 2], [1, 2], [3, 4], 5]
+</code></pre></div></div>
+
+<p>We compare five ways to make copies in python.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">copy</span> 
+<span class="n">d1</span><span class="o">=</span><span class="n">d</span>
+<span class="n">d2</span><span class="o">=</span><span class="n">d</span><span class="p">[:]</span>
+<span class="n">d3</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+<span class="n">d4</span><span class="o">=</span><span class="n">copy</span><span class="p">.</span><span class="n">copy</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+<span class="n">d5</span><span class="o">=</span><span class="n">copy</span><span class="p">.</span><span class="n">deepcopy</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>There  really are  five copies of d:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">d1</span> <span class="o">==</span> <span class="n">d</span><span class="p">,</span><span class="n">d2</span> <span class="o">==</span> <span class="n">d</span><span class="p">,</span><span class="n">d3</span> <span class="o">==</span> <span class="n">d</span><span class="p">,</span><span class="n">d4</span> <span class="o">==</span> <span class="n">d</span><span class="p">,</span><span class="n">d5</span> <span class="o">==</span> <span class="n">d</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True True True True True
+</code></pre></div></div>
+
+<p>The operator <b> = </b> does not make a real copy of the list. It just 
+gives another name to the same object:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">d1</span> <span class="ow">is</span> <span class="n">d</span><span class="p">,</span><span class="n">d2</span> <span class="ow">is</span> <span class="n">d</span><span class="p">,</span><span class="n">d3</span> <span class="ow">is</span> <span class="n">d</span><span class="p">,</span><span class="n">d4</span> <span class="ow">is</span> <span class="n">d</span><span class="p">,</span><span class="n">d5</span> <span class="ow">is</span> <span class="n">d</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True False False False False
+</code></pre></div></div>
+
+<p>As a consequence changing an element in <b> d1 </b> is identical to changing 
+ the element in <b> d, </b> and vice versa. The other copies are not affected.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">d</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">=</span><span class="mi">6</span>
+<span class="n">i</span><span class="o">=</span><span class="mi">3</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d4</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[1, 2], [1, 2], [3, 4], 6]
+[[1, 2], [1, 2], [3, 4], 5]
+[[1, 2], [1, 2], [3, 4], 5]
+[[1, 2], [1, 2], [3, 4], 5]
+[[1, 2], [1, 2], [3, 4], 5]
+</code></pre></div></div>
+
+<p>Actually it is important that we have changed an element with an immutable type. Changing 
+elements of the (sub)lists is propagated in all the first four copies. All these copies are called shallow.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span><span class="o">=</span><span class="mi">2</span>
+<span class="n">d</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="mi">7</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d4</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d5</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d2</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d3</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d4</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d5</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[1, 2], [1, 2], [7, 4], 6]
+[[1, 2], [1, 2], [7, 4], 5]
+[[1, 2], [1, 2], [7, 4], 5]
+[[1, 2], [1, 2], [7, 4], 5]
+[[1, 2], [1, 2], [3, 4], 5]
+True True True True False
+</code></pre></div></div>
+
+<p>The identity of the (sub)list is the same in <b> b, d, d1, d2, d3, d4 <b></b></b></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">b</span>
+</code></pre></div></div>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[7, 4]
+</code></pre></div></div>
+
+<p>The conclusion is that only <b> copy.deepcopy() </b>  duplicates everything, and all the
+elements of <b> d5</b> are uncoupled from everything.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">d5</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span><span class="o">=</span><span class="mi">8</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d4</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d5</span><span class="p">)</span>
+<span class="n">i</span><span class="o">=</span><span class="mi">1</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d2</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d3</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d4</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d5</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[1, 2], [1, 2], [7, 4], 6]
+[[1, 2], [1, 2], [7, 4], 5]
+[[1, 2], [1, 2], [7, 4], 5]
+[[1, 2], [1, 2], [7, 4], 5]
+[[1, 8], [1, 8], [3, 4], 5]
+True True True True False
+</code></pre></div></div>
+
+<p>The function deepcopy() is smart enough to copy the internal geometry though, and the first two elements are
+kept identical.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d1</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">d2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d2</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">d3</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d3</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">d4</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d4</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">d5</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d5</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d2</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">d2</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d2</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">d3</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d3</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">d4</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d4</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">d5</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d5</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True True True True True
+False False False False False
+</code></pre></div></div>
+
+<p>Going back to the beginning, the identity of the list elements is not changed by the copy process.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">a</span><span class="o">=</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+<span class="n">b</span><span class="o">=</span><span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">]</span>
+<span class="n">c</span><span class="o">=</span><span class="mi">5</span>
+<span class="n">d</span><span class="o">=</span><span class="p">[</span><span class="n">a</span><span class="p">,</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">c</span><span class="p">,</span><span class="n">d</span><span class="p">)</span>
+<span class="n">d1</span><span class="o">=</span><span class="n">d</span>
+<span class="n">d2</span><span class="o">=</span><span class="n">d</span><span class="p">[:]</span>
+<span class="n">d3</span><span class="o">=</span><span class="nb">list</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+<span class="n">d4</span><span class="o">=</span><span class="n">copy</span><span class="p">.</span><span class="n">copy</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+<span class="n">d5</span><span class="o">=</span><span class="n">copy</span><span class="p">.</span><span class="n">deepcopy</span><span class="p">(</span><span class="n">d</span><span class="p">)</span>
+<span class="n">i</span><span class="o">=</span><span class="mi">3</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d2</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d3</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d4</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">d5</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">is</span> <span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[1, 2] [3, 4] 5 [[1, 2], [1, 2], [3, 4], 5]
+True True True True True
+</code></pre></div></div>
+
+<p>Beeing a mutable type, changing the value changes the identity of the forth element</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span><span class="o">=</span><span class="mi">3</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="n">c</span><span class="p">),</span><span class="nb">id</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d2</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d3</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d4</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d5</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+<span class="n">d1</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">=</span><span class="mi">7</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="n">c</span><span class="p">),</span><span class="nb">id</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d2</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d3</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d4</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d5</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1674940576 1674940576 1674940576 1674940576 1674940576 1674940576 1674940576
+1674940576 1674940640 1674940640 1674940576 1674940576 1674940576 1674940576
+</code></pre></div></div>
+
+<p>For an element with a mutable type deepcopy (and only deepcopy) changes the identity. 
+This is consistent with the fact that now a change in values, because it does not change identities, is 
+reflected in all the copies but the deep one.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">i</span><span class="o">=</span><span class="mi">2</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="n">b</span><span class="p">),</span><span class="nb">id</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d2</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d3</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d4</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d5</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+<span class="n">d1</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">=</span><span class="mi">8</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">id</span><span class="p">(</span><span class="n">b</span><span class="p">),</span><span class="nb">id</span><span class="p">(</span><span class="n">d</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d1</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d2</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d3</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d4</span><span class="p">[</span><span class="n">i</span><span class="p">]),</span><span class="nb">id</span><span class="p">(</span><span class="n">d5</span><span class="p">[</span><span class="n">i</span><span class="p">]))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d1</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d2</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d3</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d4</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">d5</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1350457771080 1350457771080 1350457771080 1350457771080 1350457771080 1350457771080 1350456318664
+1350457771080 1350457771080 1350457771080 1350457771080 1350457771080 1350457771080 1350456318664
+[[1, 2], [1, 2], [8, 4], 7]
+[[1, 2], [1, 2], [8, 4], 5]
+[[1, 2], [1, 2], [8, 4], 5]
+[[1, 2], [1, 2], [8, 4], 5]
+[[1, 2], [1, 2], [3, 4], 5]
+</code></pre></div></div>
+
+<p>So the conclusion is that the assignment <b> = </b> gives another name to the same object, 
+<b> =â€¦[:], list() and copy()</b> create an entirely new object but do not create new copies of 
+the (sub)objects, while  <b> deepcopy() </b> creates a new copy of the object and copies of<br />
+all the  contained objects.</p>
+
+<p>Gist of the notebook with the above instructions:</p>
+
+<script src="https://gist.github.com/plonzari/936a8bbb4a925d879e055cae780e5bda.js"></script>
+
+:ET

@@ -1,0 +1,45 @@
+I"<p>In a previouis <a href="/numbers/python/2022/01/26/Wordle.html">post</a> I discussed my approach to 
+“solving” the game of <a href="https://www.powerlanguage.co.uk/wordle/"> WORDLE. </a> In the meantime 
+I have discovered quite a few excellent works about the subject, the game has been sold to NYT and even 
+more clones can be found, some quite  <a href="https://worldle.teuteuf.fr/">interesting.</a></p>
+
+<p>These are a few closing observations.</p>
+
+<!--more-->
+
+<p><strong>1.</strong> The best word to start a game of WORDLE with is 
+<a href="https://www.thefreedictionary.com/salet"> SALET. </a> This result is identical to
+those presented by 
+<a href="https://jonathanolson.net/wordle-solver/"> Jonathan Olson </a>
+and in the beautifully videos by 3Blue1Brown:</p>
+
+<div style="text-align: center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fRed0Xmc2Wg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+
+<p><a href="https://jonathanolson.net/experiments/optimal-wordle-solutions"> Jonathan Olson </a> has an 
+approach based on the full game tree, similar to mine. I only have a different method of
+exploring the tree. After each guess my algorithm orders the possible next guesses in the decreasing 
+order of the number of different color configurations that can be created. This number is a proxy of how much information 
+the guess can provide.
+The algorithm recursively follows only a limited number of high information guesses. This speeds up the 
+exploration of the game tree. At around 50 (compare with 13000)  the results do not change any more,
+indicating that we have attained the optimum.</p>
+
+<p><strong>2.</strong>  Notwithstanding <a href="https://mashable.com/article/wordle-harder-new-york-times">
+some complaints </a> 
+<a href="https://www.nytimes.com/games/wordle/index.html"> the new version of the game hosted
+by NYT </a> is not more difficult. The algorithm for choosing the solution of the day is based on
+the same number of days since some date last year. Also, consistent with the removal of some six possible
+solutions out of 2315, the best strategy (again starting with SALET) is slightly faster (3.41 average steps
+compared with 3.42).</p>
+
+<p><strong>3.</strong>
+<a href="https://sirb.net/2022/general/am-actualizat-wordle-ro/"> The romanian version of WORDLE </a>
+has as optimal starting word 
+<a href="https://dexonline.ro/definitie/c%C4%83rit"> CARIT. </a>
+For the romanian speakers that have no idea what this word means 
+very close behind (at 2.34 average number of steps) is CERTA. The smaller number of steps needed to solve
+the problem is due to the reduced solution space (1673 compared to the 2315 solutions for the original).</p>
+
+:ET

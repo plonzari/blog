@@ -1,0 +1,10 @@
+I"Ù<p>Inspired by the observation</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Out of the roughly 2200 miles, 445.6 are in red states, not counting the 20 miles on the border between West Virginia and Virginia. Dare I go county by county in the blue states and get a 2021 political map of the AT?</p>&mdash; Codru»õa Morari (@CodrutaMorari) <a href="https://twitter.com/CodrutaMorari/status/1331352896521310208?ref_src=twsrc%5Etfw">November 24, 2020</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>I have decided to play a bit more with
+<a href="https://plotly.github.io/plotly.py-docs/generated/plotly.express.choropleth.html"> 
+<code>plotly.express.choropleth</code>. </a></p>
+
+:ET
