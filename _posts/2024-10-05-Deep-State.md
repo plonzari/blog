@@ -7,7 +7,7 @@ categories: politics
 ---
 
 Wikipedia tells us that <a href="https://en.wikipedia.org/wiki/Deep_state"> 
-__Deep state__ is a calque of the Turkish words derin devlet. </a> 
+__deep state__ is a calque of the Turkish words derin devlet. </a> 
 While this notion has value, it has been appropriated by noxious political groups and its 
 connotations have many subtle but important differences, depending on the context.
 
